@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --aot --output-path docs/ --base-href /todo-spring-angular-frontend/ --deploy-url /todo-spring-angular-frontend/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
